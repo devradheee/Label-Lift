@@ -1,22 +1,15 @@
-# Music Dashboard (Aesthetic + .env)
+# 🎵 Music Dashboard
 
-## Setup
+A mini **Music Distribution Dashboard** built with **Next.js**, **React**, and **Tailwind CSS**.  
+Features login, dashboard listing, uploading tracks, and viewing track details — all using **Next.js API routes** as a mock backend. Authentication is handled via **cookies + SESSION_SECRET**.
+
+---
+
+## 🚀 Setup
+
+1. Clone or extract the project folder.
+2. Install dependencies and start dev server:
+
 ```bash
 npm install
 npm run dev
-```
-
-## Environment Variables
-Create `.env.local` (already included for dev):
-```env
-NEXT_PUBLIC_API_URL=http://localhost:3000/api
-SESSION_SECRET=demoSecret
-```
-
-## Features
-- Login (mock)
-- Dashboard with search
-- Upload new tracks
-- Track details page
-- Tailwind styled UI
-- Uses `.env.local` for API URL
